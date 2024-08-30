@@ -1,42 +1,60 @@
-
+// -*-rust-*-
 pub type U32String = u32;
 
+
+#[derive(Copy, Drop)]
 pub struct Root {
-    items: Array<ModContainer>,
+    r_items: Span<ModContainer>,
 }
 
+#[derive(Copy, Drop)]
 pub struct ModContainer {
-    Mod : Option<Mod>,
-    Enum : Option<Enum>,
+    c_mod : Option<Mod>,
+    c_enum : Option<Enum>,
 }
 
+#[derive(Copy, Drop)]
 pub struct Mod {
     ident: U32String
 }
 
+#[derive(Copy, Drop)]
 pub struct Struct {
     ident: U32String
 }
 
+#[derive(Copy, Drop)]
 pub struct Enum {
     ident: U32String,
     //attrs: Array<EnumAttrs>
     variants: EnumVariants
 }
 
+#[derive(Copy, Drop)]
 pub struct EnumVariantObj {
     ident: Option<U32String>
 }
 
+#[derive(Copy, Drop)]
 pub struct EnumVariants {
-    inner: Array<Array<EnumVariantObj>>
+    inner: Span<Span<EnumVariantObj>>
 }
 
+#[derive(Copy, Drop)]
 pub struct Type {}
 
+fn foo (r: Root) -> Root {
+    r
+}
 
 fn main() -> u32 {
-    fib(16)
+    let mod1 =Option::None;
+    let modcon=  ModContainer{ c_mod: mod1,      c_enum: Option::None,	    };
+    let items = array![modcon];
+//    items.append(modcon);
+    let r = Root { r_items: items.span()    };
+    foo(r);
+    return 1;
 }
 
 // we want to say this type is defined as such, an alias
@@ -67,17 +85,6 @@ fn add_enum(mut n: u32, n_enum: u32 ) -> u32 {
     n
 }
 
-fn fib(mut n: u32) -> u32 {
-    let mut a: u32 = 0;
-    let mut b: u32 = 1;
-    while n != 0 {
-        n = n - 1;
-        let temp = b;
-        b = a + b;
-        a = temp;
-    };
-    a
-}
 
 #[cfg(test)]
 mod tests {
