@@ -1,0 +1,4667 @@
+{
+  "version": 1,
+  "type_declarations": [
+    {
+      "id": {
+        "id": 16,
+        "debug_name": "Array<test_scarb::ModContainer>"
+      },
+      "long_id": {
+        "generic_id": "Array",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 15,
+              "debug_name": "test_scarb::ModContainer"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": false,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 17,
+        "debug_name": "Snapshot<Array<test_scarb::ModContainer>>"
+      },
+      "long_id": {
+        "generic_id": "Snapshot",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 16,
+              "debug_name": "Array<test_scarb::ModContainer>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 18,
+        "debug_name": "core::array::Span::<test_scarb::ModContainer>"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                1729435101,
+                2294119978,
+                2365189033,
+                3691857874,
+                2492377681,
+                29867147,
+                1305358650,
+                65161189
+              ],
+              "debug_name": "core::array::Span::<test_scarb::ModContainer>"
+            }
+          },
+          {
+            "Type": {
+              "id": 17,
+              "debug_name": "Snapshot<Array<test_scarb::ModContainer>>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 19,
+        "debug_name": "test_scarb::Root"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                4029401080,
+                2598217515,
+                2874625568,
+                674002811,
+                3037302420,
+                3770094473,
+                1879248059,
+                1616737
+              ],
+              "debug_name": "test_scarb::Root"
+            }
+          },
+          {
+            "Type": {
+              "id": 18,
+              "debug_name": "core::array::Span::<test_scarb::ModContainer>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 24,
+        "debug_name": "core::panics::Panic"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                2208749170,
+                1797821712,
+                129214108,
+                2539384922,
+                764199911,
+                1378060934,
+                2080739472,
+                23743629
+              ],
+              "debug_name": "core::panics::Panic"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": true
+      }
+    },
+    {
+      "id": {
+        "id": 26,
+        "debug_name": "Array<felt252>"
+      },
+      "long_id": {
+        "generic_id": "Array",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 25,
+              "debug_name": "felt252"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": false,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 27,
+        "debug_name": "Tuple<core::panics::Panic, Array<felt252>>"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                1380714691,
+                777545161,
+                640624565,
+                3564344830,
+                2506258596,
+                2515665124,
+                462026948,
+                49159723
+              ],
+              "debug_name": "Tuple"
+            }
+          },
+          {
+            "Type": {
+              "id": 24,
+              "debug_name": "core::panics::Panic"
+            }
+          },
+          {
+            "Type": {
+              "id": 26,
+              "debug_name": "Array<felt252>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": false,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 29,
+        "debug_name": "Const<felt252, 155785504323917466144735657540098748279>"
+      },
+      "long_id": {
+        "generic_id": "Const",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 25,
+              "debug_name": "felt252"
+            }
+          },
+          {
+            "Value": [
+              1,
+              [
+                1718382455,
+                1333159282,
+                1633969184,
+                1966289503
+              ]
+            ]
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": false,
+        "droppable": false,
+        "duplicatable": false,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 25,
+        "debug_name": "felt252"
+      },
+      "long_id": {
+        "generic_id": "felt252",
+        "generic_args": []
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 0,
+        "debug_name": "u32"
+      },
+      "long_id": {
+        "generic_id": "u32",
+        "generic_args": []
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 23,
+        "debug_name": "Tuple<u32>"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                1380714691,
+                777545161,
+                640624565,
+                3564344830,
+                2506258596,
+                2515665124,
+                462026948,
+                49159723
+              ],
+              "debug_name": "Tuple"
+            }
+          },
+          {
+            "Type": {
+              "id": 0,
+              "debug_name": "u32"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 28,
+        "debug_name": "core::panics::PanicResult::<(core::integer::u32,)>"
+      },
+      "long_id": {
+        "generic_id": "Enum",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                3312682938,
+                806230876,
+                2089360932,
+                2994379634,
+                832942750,
+                2503675423,
+                3437472202,
+                61571115
+              ],
+              "debug_name": "core::panics::PanicResult::<(core::integer::u32,)>"
+            }
+          },
+          {
+            "Type": {
+              "id": 23,
+              "debug_name": "Tuple<u32>"
+            }
+          },
+          {
+            "Type": {
+              "id": 27,
+              "debug_name": "Tuple<core::panics::Panic, Array<felt252>>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": false,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 22,
+        "debug_name": "RangeCheck"
+      },
+      "long_id": {
+        "generic_id": "RangeCheck",
+        "generic_args": []
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": false,
+        "duplicatable": false,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 21,
+        "debug_name": "Const<u32, 1>"
+      },
+      "long_id": {
+        "generic_id": "Const",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 0,
+              "debug_name": "u32"
+            }
+          },
+          {
+            "Value": [
+              1,
+              [
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": false,
+        "droppable": false,
+        "duplicatable": false,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 9,
+        "debug_name": "Array<core::array::Span::<test_scarb::EnumVariantObj>>"
+      },
+      "long_id": {
+        "generic_id": "Array",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 8,
+              "debug_name": "core::array::Span::<test_scarb::EnumVariantObj>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": false,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 10,
+        "debug_name": "Snapshot<Array<core::array::Span::<test_scarb::EnumVariantObj>>>"
+      },
+      "long_id": {
+        "generic_id": "Snapshot",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 9,
+              "debug_name": "Array<core::array::Span::<test_scarb::EnumVariantObj>>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 11,
+        "debug_name": "core::array::Span::<core::array::Span::<test_scarb::EnumVariantObj>>"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                1605064118,
+                1342018393,
+                3284647479,
+                1072038190,
+                2690667500,
+                1142342838,
+                3114791040,
+                40145079
+              ],
+              "debug_name": "core::array::Span::<core::array::Span::<test_scarb::EnumVariantObj>>"
+            }
+          },
+          {
+            "Type": {
+              "id": 10,
+              "debug_name": "Snapshot<Array<core::array::Span::<test_scarb::EnumVariantObj>>>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 12,
+        "debug_name": "test_scarb::EnumVariants"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                2012960625,
+                3788662173,
+                3637078657,
+                858550640,
+                196060870,
+                3747221936,
+                1264787969,
+                9676051
+              ],
+              "debug_name": "test_scarb::EnumVariants"
+            }
+          },
+          {
+            "Type": {
+              "id": 11,
+              "debug_name": "core::array::Span::<core::array::Span::<test_scarb::EnumVariantObj>>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 13,
+        "debug_name": "test_scarb::Enum"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                3732712178,
+                3687161735,
+                2063419487,
+                3256054506,
+                2154458820,
+                2821142179,
+                4284980142,
+                54270397
+              ],
+              "debug_name": "test_scarb::Enum"
+            }
+          },
+          {
+            "Type": {
+              "id": 0,
+              "debug_name": "u32"
+            }
+          },
+          {
+            "Type": {
+              "id": 12,
+              "debug_name": "test_scarb::EnumVariants"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 2,
+        "debug_name": "Unit"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                1380714691,
+                777545161,
+                640624565,
+                3564344830,
+                2506258596,
+                2515665124,
+                462026948,
+                49159723
+              ],
+              "debug_name": "Tuple"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": true
+      }
+    },
+    {
+      "id": {
+        "id": 14,
+        "debug_name": "core::option::Option::<test_scarb::Enum>"
+      },
+      "long_id": {
+        "generic_id": "Enum",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                1933118252,
+                179749940,
+                1970834340,
+                1578125356,
+                2740394827,
+                1608846709,
+                4086836905,
+                534422
+              ],
+              "debug_name": "core::option::Option::<test_scarb::Enum>"
+            }
+          },
+          {
+            "Type": {
+              "id": 13,
+              "debug_name": "test_scarb::Enum"
+            }
+          },
+          {
+            "Type": {
+              "id": 2,
+              "debug_name": "Unit"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 1,
+        "debug_name": "test_scarb::Mod"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                2125762236,
+                2195129812,
+                3598390761,
+                139360819,
+                1767462484,
+                2071615997,
+                1791471209,
+                27722769
+              ],
+              "debug_name": "test_scarb::Mod"
+            }
+          },
+          {
+            "Type": {
+              "id": 0,
+              "debug_name": "u32"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 3,
+        "debug_name": "core::option::Option::<test_scarb::Mod>"
+      },
+      "long_id": {
+        "generic_id": "Enum",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                1558528469,
+                3035857033,
+                3926378466,
+                2081202444,
+                324952719,
+                1414577348,
+                655713367,
+                51979651
+              ],
+              "debug_name": "core::option::Option::<test_scarb::Mod>"
+            }
+          },
+          {
+            "Type": {
+              "id": 1,
+              "debug_name": "test_scarb::Mod"
+            }
+          },
+          {
+            "Type": {
+              "id": 2,
+              "debug_name": "Unit"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 6,
+        "debug_name": "Array<test_scarb::EnumVariantObj>"
+      },
+      "long_id": {
+        "generic_id": "Array",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 5,
+              "debug_name": "test_scarb::EnumVariantObj"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": false,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 7,
+        "debug_name": "Snapshot<Array<test_scarb::EnumVariantObj>>"
+      },
+      "long_id": {
+        "generic_id": "Snapshot",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 6,
+              "debug_name": "Array<test_scarb::EnumVariantObj>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 8,
+        "debug_name": "core::array::Span::<test_scarb::EnumVariantObj>"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                4016443312,
+                2366080714,
+                970259832,
+                1331875221,
+                275451795,
+                2322348133,
+                1567531405,
+                55972666
+              ],
+              "debug_name": "core::array::Span::<test_scarb::EnumVariantObj>"
+            }
+          },
+          {
+            "Type": {
+              "id": 7,
+              "debug_name": "Snapshot<Array<test_scarb::EnumVariantObj>>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 4,
+        "debug_name": "core::option::Option::<core::integer::u32>"
+      },
+      "long_id": {
+        "generic_id": "Enum",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                1973348684,
+                2372715026,
+                2151233904,
+                1622058185,
+                1250014282,
+                4192710537,
+                3122141780,
+                26974948
+              ],
+              "debug_name": "core::option::Option::<core::integer::u32>"
+            }
+          },
+          {
+            "Type": {
+              "id": 0,
+              "debug_name": "u32"
+            }
+          },
+          {
+            "Type": {
+              "id": 2,
+              "debug_name": "Unit"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 5,
+        "debug_name": "test_scarb::EnumVariantObj"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                3748033327,
+                4204533620,
+                3530414238,
+                580230582,
+                2409910504,
+                3711820409,
+                3194346035,
+                47180976
+              ],
+              "debug_name": "test_scarb::EnumVariantObj"
+            }
+          },
+          {
+            "Type": {
+              "id": 4,
+              "debug_name": "core::option::Option::<core::integer::u32>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    },
+    {
+      "id": {
+        "id": 15,
+        "debug_name": "test_scarb::ModContainer"
+      },
+      "long_id": {
+        "generic_id": "Struct",
+        "generic_args": [
+          {
+            "UserType": {
+              "id": [
+                1374915154,
+                76468826,
+                1831676280,
+                2424182161,
+                1334714985,
+                4255661532,
+                2454859578,
+                4377869
+              ],
+              "debug_name": "test_scarb::ModContainer"
+            }
+          },
+          {
+            "Type": {
+              "id": 3,
+              "debug_name": "core::option::Option::<test_scarb::Mod>"
+            }
+          },
+          {
+            "Type": {
+              "id": 14,
+              "debug_name": "core::option::Option::<test_scarb::Enum>"
+            }
+          }
+        ]
+      },
+      "declared_type_info": {
+        "storable": true,
+        "droppable": true,
+        "duplicatable": true,
+        "zero_sized": false
+      }
+    }
+  ],
+  "libfunc_declarations": [
+    {
+      "id": {
+        "id": 0,
+        "debug_name": "store_temp<test_scarb::Root>"
+      },
+      "long_id": {
+        "generic_id": "store_temp",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 19,
+              "debug_name": "test_scarb::Root"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 6,
+        "debug_name": "array_new<test_scarb::ModContainer>"
+      },
+      "long_id": {
+        "generic_id": "array_new",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 15,
+              "debug_name": "test_scarb::ModContainer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 4,
+        "debug_name": "struct_construct<Unit>"
+      },
+      "long_id": {
+        "generic_id": "struct_construct",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 2,
+              "debug_name": "Unit"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 5,
+        "debug_name": "enum_init<core::option::Option::<test_scarb::Mod>, 1>"
+      },
+      "long_id": {
+        "generic_id": "enum_init",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 3,
+              "debug_name": "core::option::Option::<test_scarb::Mod>"
+            }
+          },
+          {
+            "Value": [
+              1,
+              [
+                1
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 3,
+        "debug_name": "enum_init<core::option::Option::<test_scarb::Enum>, 1>"
+      },
+      "long_id": {
+        "generic_id": "enum_init",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 14,
+              "debug_name": "core::option::Option::<test_scarb::Enum>"
+            }
+          },
+          {
+            "Value": [
+              1,
+              [
+                1
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 2,
+        "debug_name": "struct_construct<test_scarb::ModContainer>"
+      },
+      "long_id": {
+        "generic_id": "struct_construct",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 15,
+              "debug_name": "test_scarb::ModContainer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 10,
+        "debug_name": "store_temp<test_scarb::ModContainer>"
+      },
+      "long_id": {
+        "generic_id": "store_temp",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 15,
+              "debug_name": "test_scarb::ModContainer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 1,
+        "debug_name": "array_append<test_scarb::ModContainer>"
+      },
+      "long_id": {
+        "generic_id": "array_append",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 15,
+              "debug_name": "test_scarb::ModContainer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 8,
+        "debug_name": "drop<Array<test_scarb::ModContainer>>"
+      },
+      "long_id": {
+        "generic_id": "drop",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 16,
+              "debug_name": "Array<test_scarb::ModContainer>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 9,
+        "debug_name": "const_as_immediate<Const<u32, 1>>"
+      },
+      "long_id": {
+        "generic_id": "const_as_immediate",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 21,
+              "debug_name": "Const<u32, 1>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 11,
+        "debug_name": "store_temp<u32>"
+      },
+      "long_id": {
+        "generic_id": "store_temp",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 0,
+              "debug_name": "u32"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 19,
+        "debug_name": "u32_overflowing_add"
+      },
+      "long_id": {
+        "generic_id": "u32_overflowing_add",
+        "generic_args": []
+      }
+    },
+    {
+      "id": {
+        "id": 20,
+        "debug_name": "branch_align"
+      },
+      "long_id": {
+        "generic_id": "branch_align",
+        "generic_args": []
+      }
+    },
+    {
+      "id": {
+        "id": 18,
+        "debug_name": "struct_construct<Tuple<u32>>"
+      },
+      "long_id": {
+        "generic_id": "struct_construct",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 23,
+              "debug_name": "Tuple<u32>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 17,
+        "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 0>"
+      },
+      "long_id": {
+        "generic_id": "enum_init",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 28,
+              "debug_name": "core::panics::PanicResult::<(core::integer::u32,)>"
+            }
+          },
+          {
+            "Value": [
+              0,
+              []
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 23,
+        "debug_name": "store_temp<RangeCheck>"
+      },
+      "long_id": {
+        "generic_id": "store_temp",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 22,
+              "debug_name": "RangeCheck"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 24,
+        "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+      },
+      "long_id": {
+        "generic_id": "store_temp",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 28,
+              "debug_name": "core::panics::PanicResult::<(core::integer::u32,)>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 21,
+        "debug_name": "drop<u32>"
+      },
+      "long_id": {
+        "generic_id": "drop",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 0,
+              "debug_name": "u32"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 16,
+        "debug_name": "array_new<felt252>"
+      },
+      "long_id": {
+        "generic_id": "array_new",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 25,
+              "debug_name": "felt252"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 22,
+        "debug_name": "const_as_immediate<Const<felt252, 155785504323917466144735657540098748279>>"
+      },
+      "long_id": {
+        "generic_id": "const_as_immediate",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 29,
+              "debug_name": "Const<felt252, 155785504323917466144735657540098748279>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 25,
+        "debug_name": "store_temp<felt252>"
+      },
+      "long_id": {
+        "generic_id": "store_temp",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 25,
+              "debug_name": "felt252"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 15,
+        "debug_name": "array_append<felt252>"
+      },
+      "long_id": {
+        "generic_id": "array_append",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 25,
+              "debug_name": "felt252"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 14,
+        "debug_name": "struct_construct<core::panics::Panic>"
+      },
+      "long_id": {
+        "generic_id": "struct_construct",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 24,
+              "debug_name": "core::panics::Panic"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 13,
+        "debug_name": "struct_construct<Tuple<core::panics::Panic, Array<felt252>>>"
+      },
+      "long_id": {
+        "generic_id": "struct_construct",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 27,
+              "debug_name": "Tuple<core::panics::Panic, Array<felt252>>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": {
+        "id": 12,
+        "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 1>"
+      },
+      "long_id": {
+        "generic_id": "enum_init",
+        "generic_args": [
+          {
+            "Type": {
+              "id": 28,
+              "debug_name": "core::panics::PanicResult::<(core::integer::u32,)>"
+            }
+          },
+          {
+            "Value": [
+              1,
+              [
+                1
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "statements": [
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 0,
+          "debug_name": "store_temp<test_scarb::Root>"
+        },
+        "args": [
+          {
+            "id": 0,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 0,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 0,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 6,
+          "debug_name": "array_new<test_scarb::ModContainer>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 0,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 4,
+          "debug_name": "struct_construct<Unit>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 1,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 5,
+          "debug_name": "enum_init<core::option::Option::<test_scarb::Mod>, 1>"
+        },
+        "args": [
+          {
+            "id": 1,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 2,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 4,
+          "debug_name": "struct_construct<Unit>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 3,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 3,
+          "debug_name": "enum_init<core::option::Option::<test_scarb::Enum>, 1>"
+        },
+        "args": [
+          {
+            "id": 3,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 4,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 2,
+          "debug_name": "struct_construct<test_scarb::ModContainer>"
+        },
+        "args": [
+          {
+            "id": 2,
+            "debug_name": null
+          },
+          {
+            "id": 4,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 5,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 10,
+          "debug_name": "store_temp<test_scarb::ModContainer>"
+        },
+        "args": [
+          {
+            "id": 5,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 5,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 1,
+          "debug_name": "array_append<test_scarb::ModContainer>"
+        },
+        "args": [
+          {
+            "id": 0,
+            "debug_name": null
+          },
+          {
+            "id": 5,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 6,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 8,
+          "debug_name": "drop<Array<test_scarb::ModContainer>>"
+        },
+        "args": [
+          {
+            "id": 6,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 9,
+          "debug_name": "const_as_immediate<Const<u32, 1>>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 7,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 11,
+          "debug_name": "store_temp<u32>"
+        },
+        "args": [
+          {
+            "id": 7,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 7,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 7,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 19,
+          "debug_name": "u32_overflowing_add"
+        },
+        "args": [
+          {
+            "id": 0,
+            "debug_name": null
+          },
+          {
+            "id": 1,
+            "debug_name": null
+          },
+          {
+            "id": 2,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 4,
+                "debug_name": null
+              },
+              {
+                "id": 5,
+                "debug_name": null
+              }
+            ]
+          },
+          {
+            "target": {
+              "Statement": 35
+            },
+            "results": [
+              {
+                "id": 6,
+                "debug_name": null
+              },
+              {
+                "id": 7,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 19,
+          "debug_name": "u32_overflowing_add"
+        },
+        "args": [
+          {
+            "id": 4,
+            "debug_name": null
+          },
+          {
+            "id": 5,
+            "debug_name": null
+          },
+          {
+            "id": 3,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 8,
+                "debug_name": null
+              },
+              {
+                "id": 9,
+                "debug_name": null
+              }
+            ]
+          },
+          {
+            "target": {
+              "Statement": 23
+            },
+            "results": [
+              {
+                "id": 10,
+                "debug_name": null
+              },
+              {
+                "id": 11,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 18,
+          "debug_name": "struct_construct<Tuple<u32>>"
+        },
+        "args": [
+          {
+            "id": 9,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 12,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 17,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 0>"
+        },
+        "args": [
+          {
+            "id": 12,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 13,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 8,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 8,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 13,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 13,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 8,
+          "debug_name": null
+        },
+        {
+          "id": 13,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 21,
+          "debug_name": "drop<u32>"
+        },
+        "args": [
+          {
+            "id": 11,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 16,
+          "debug_name": "array_new<felt252>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 14,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 22,
+          "debug_name": "const_as_immediate<Const<felt252, 155785504323917466144735657540098748279>>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 15,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 25,
+          "debug_name": "store_temp<felt252>"
+        },
+        "args": [
+          {
+            "id": 15,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 15,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 15,
+          "debug_name": "array_append<felt252>"
+        },
+        "args": [
+          {
+            "id": 14,
+            "debug_name": null
+          },
+          {
+            "id": 15,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 16,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 14,
+          "debug_name": "struct_construct<core::panics::Panic>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 17,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 13,
+          "debug_name": "struct_construct<Tuple<core::panics::Panic, Array<felt252>>>"
+        },
+        "args": [
+          {
+            "id": 17,
+            "debug_name": null
+          },
+          {
+            "id": 16,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 18,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 12,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 1>"
+        },
+        "args": [
+          {
+            "id": 18,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 19,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 10,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 10,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 19,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 19,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 10,
+          "debug_name": null
+        },
+        {
+          "id": 19,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 21,
+          "debug_name": "drop<u32>"
+        },
+        "args": [
+          {
+            "id": 7,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 21,
+          "debug_name": "drop<u32>"
+        },
+        "args": [
+          {
+            "id": 3,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 16,
+          "debug_name": "array_new<felt252>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 20,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 22,
+          "debug_name": "const_as_immediate<Const<felt252, 155785504323917466144735657540098748279>>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 21,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 25,
+          "debug_name": "store_temp<felt252>"
+        },
+        "args": [
+          {
+            "id": 21,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 21,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 15,
+          "debug_name": "array_append<felt252>"
+        },
+        "args": [
+          {
+            "id": 20,
+            "debug_name": null
+          },
+          {
+            "id": 21,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 22,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 14,
+          "debug_name": "struct_construct<core::panics::Panic>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 23,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 13,
+          "debug_name": "struct_construct<Tuple<core::panics::Panic, Array<felt252>>>"
+        },
+        "args": [
+          {
+            "id": 23,
+            "debug_name": null
+          },
+          {
+            "id": 22,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 24,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 12,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 1>"
+        },
+        "args": [
+          {
+            "id": 24,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 25,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 6,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 6,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 25,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 25,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 6,
+          "debug_name": null
+        },
+        {
+          "id": 25,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 19,
+          "debug_name": "u32_overflowing_add"
+        },
+        "args": [
+          {
+            "id": 0,
+            "debug_name": null
+          },
+          {
+            "id": 1,
+            "debug_name": null
+          },
+          {
+            "id": 2,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 3,
+                "debug_name": null
+              },
+              {
+                "id": 4,
+                "debug_name": null
+              }
+            ]
+          },
+          {
+            "target": {
+              "Statement": 55
+            },
+            "results": [
+              {
+                "id": 5,
+                "debug_name": null
+              },
+              {
+                "id": 6,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 18,
+          "debug_name": "struct_construct<Tuple<u32>>"
+        },
+        "args": [
+          {
+            "id": 4,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 7,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 17,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 0>"
+        },
+        "args": [
+          {
+            "id": 7,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 8,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 3,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 3,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 8,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 8,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 3,
+          "debug_name": null
+        },
+        {
+          "id": 8,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 21,
+          "debug_name": "drop<u32>"
+        },
+        "args": [
+          {
+            "id": 6,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 16,
+          "debug_name": "array_new<felt252>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 9,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 22,
+          "debug_name": "const_as_immediate<Const<felt252, 155785504323917466144735657540098748279>>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 10,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 25,
+          "debug_name": "store_temp<felt252>"
+        },
+        "args": [
+          {
+            "id": 10,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 10,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 15,
+          "debug_name": "array_append<felt252>"
+        },
+        "args": [
+          {
+            "id": 9,
+            "debug_name": null
+          },
+          {
+            "id": 10,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 11,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 14,
+          "debug_name": "struct_construct<core::panics::Panic>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 12,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 13,
+          "debug_name": "struct_construct<Tuple<core::panics::Panic, Array<felt252>>>"
+        },
+        "args": [
+          {
+            "id": 12,
+            "debug_name": null
+          },
+          {
+            "id": 11,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 13,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 12,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 1>"
+        },
+        "args": [
+          {
+            "id": 13,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 14,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 5,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 5,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 14,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 14,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 5,
+          "debug_name": null
+        },
+        {
+          "id": 14,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 19,
+          "debug_name": "u32_overflowing_add"
+        },
+        "args": [
+          {
+            "id": 0,
+            "debug_name": null
+          },
+          {
+            "id": 1,
+            "debug_name": null
+          },
+          {
+            "id": 2,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 3,
+                "debug_name": null
+              },
+              {
+                "id": 4,
+                "debug_name": null
+              }
+            ]
+          },
+          {
+            "target": {
+              "Statement": 74
+            },
+            "results": [
+              {
+                "id": 5,
+                "debug_name": null
+              },
+              {
+                "id": 6,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 18,
+          "debug_name": "struct_construct<Tuple<u32>>"
+        },
+        "args": [
+          {
+            "id": 4,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 7,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 17,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 0>"
+        },
+        "args": [
+          {
+            "id": 7,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 8,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 3,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 3,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 8,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 8,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 3,
+          "debug_name": null
+        },
+        {
+          "id": 8,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 21,
+          "debug_name": "drop<u32>"
+        },
+        "args": [
+          {
+            "id": 6,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 16,
+          "debug_name": "array_new<felt252>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 9,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 22,
+          "debug_name": "const_as_immediate<Const<felt252, 155785504323917466144735657540098748279>>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 10,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 25,
+          "debug_name": "store_temp<felt252>"
+        },
+        "args": [
+          {
+            "id": 10,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 10,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 15,
+          "debug_name": "array_append<felt252>"
+        },
+        "args": [
+          {
+            "id": 9,
+            "debug_name": null
+          },
+          {
+            "id": 10,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 11,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 14,
+          "debug_name": "struct_construct<core::panics::Panic>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 12,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 13,
+          "debug_name": "struct_construct<Tuple<core::panics::Panic, Array<felt252>>>"
+        },
+        "args": [
+          {
+            "id": 12,
+            "debug_name": null
+          },
+          {
+            "id": 11,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 13,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 12,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 1>"
+        },
+        "args": [
+          {
+            "id": 13,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 14,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 5,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 5,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 14,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 14,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 5,
+          "debug_name": null
+        },
+        {
+          "id": 14,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 19,
+          "debug_name": "u32_overflowing_add"
+        },
+        "args": [
+          {
+            "id": 0,
+            "debug_name": null
+          },
+          {
+            "id": 1,
+            "debug_name": null
+          },
+          {
+            "id": 2,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 3,
+                "debug_name": null
+              },
+              {
+                "id": 4,
+                "debug_name": null
+              }
+            ]
+          },
+          {
+            "target": {
+              "Statement": 93
+            },
+            "results": [
+              {
+                "id": 5,
+                "debug_name": null
+              },
+              {
+                "id": 6,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 18,
+          "debug_name": "struct_construct<Tuple<u32>>"
+        },
+        "args": [
+          {
+            "id": 4,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 7,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 17,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 0>"
+        },
+        "args": [
+          {
+            "id": 7,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 8,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 3,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 3,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 8,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 8,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 3,
+          "debug_name": null
+        },
+        {
+          "id": 8,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 21,
+          "debug_name": "drop<u32>"
+        },
+        "args": [
+          {
+            "id": 6,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 16,
+          "debug_name": "array_new<felt252>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 9,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 22,
+          "debug_name": "const_as_immediate<Const<felt252, 155785504323917466144735657540098748279>>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 10,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 25,
+          "debug_name": "store_temp<felt252>"
+        },
+        "args": [
+          {
+            "id": 10,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 10,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 15,
+          "debug_name": "array_append<felt252>"
+        },
+        "args": [
+          {
+            "id": 9,
+            "debug_name": null
+          },
+          {
+            "id": 10,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 11,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 14,
+          "debug_name": "struct_construct<core::panics::Panic>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 12,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 13,
+          "debug_name": "struct_construct<Tuple<core::panics::Panic, Array<felt252>>>"
+        },
+        "args": [
+          {
+            "id": 12,
+            "debug_name": null
+          },
+          {
+            "id": 11,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 13,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 12,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 1>"
+        },
+        "args": [
+          {
+            "id": 13,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 14,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 5,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 5,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 14,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 14,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 5,
+          "debug_name": null
+        },
+        {
+          "id": 14,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 19,
+          "debug_name": "u32_overflowing_add"
+        },
+        "args": [
+          {
+            "id": 0,
+            "debug_name": null
+          },
+          {
+            "id": 1,
+            "debug_name": null
+          },
+          {
+            "id": 2,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 3,
+                "debug_name": null
+              },
+              {
+                "id": 4,
+                "debug_name": null
+              }
+            ]
+          },
+          {
+            "target": {
+              "Statement": 112
+            },
+            "results": [
+              {
+                "id": 5,
+                "debug_name": null
+              },
+              {
+                "id": 6,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 18,
+          "debug_name": "struct_construct<Tuple<u32>>"
+        },
+        "args": [
+          {
+            "id": 4,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 7,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 17,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 0>"
+        },
+        "args": [
+          {
+            "id": 7,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 8,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 3,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 3,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 8,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 8,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 3,
+          "debug_name": null
+        },
+        {
+          "id": 8,
+          "debug_name": null
+        }
+      ]
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 20,
+          "debug_name": "branch_align"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 21,
+          "debug_name": "drop<u32>"
+        },
+        "args": [
+          {
+            "id": 6,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": []
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 16,
+          "debug_name": "array_new<felt252>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 9,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 22,
+          "debug_name": "const_as_immediate<Const<felt252, 155785504323917466144735657540098748279>>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 10,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 25,
+          "debug_name": "store_temp<felt252>"
+        },
+        "args": [
+          {
+            "id": 10,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 10,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 15,
+          "debug_name": "array_append<felt252>"
+        },
+        "args": [
+          {
+            "id": 9,
+            "debug_name": null
+          },
+          {
+            "id": 10,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 11,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 14,
+          "debug_name": "struct_construct<core::panics::Panic>"
+        },
+        "args": [],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 12,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 13,
+          "debug_name": "struct_construct<Tuple<core::panics::Panic, Array<felt252>>>"
+        },
+        "args": [
+          {
+            "id": 12,
+            "debug_name": null
+          },
+          {
+            "id": 11,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 13,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 12,
+          "debug_name": "enum_init<core::panics::PanicResult::<(core::integer::u32,)>, 1>"
+        },
+        "args": [
+          {
+            "id": 13,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 14,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 23,
+          "debug_name": "store_temp<RangeCheck>"
+        },
+        "args": [
+          {
+            "id": 5,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 5,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Invocation": {
+        "libfunc_id": {
+          "id": 24,
+          "debug_name": "store_temp<core::panics::PanicResult::<(core::integer::u32,)>>"
+        },
+        "args": [
+          {
+            "id": 14,
+            "debug_name": null
+          }
+        ],
+        "branches": [
+          {
+            "target": "Fallthrough",
+            "results": [
+              {
+                "id": 14,
+                "debug_name": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Return": [
+        {
+          "id": 5,
+          "debug_name": null
+        },
+        {
+          "id": 14,
+          "debug_name": null
+        }
+      ]
+    }
+  ],
+  "funcs": [
+    {
+      "id": {
+        "id": 0,
+        "debug_name": "test_scarb::foo"
+      },
+      "signature": {
+        "param_types": [
+          {
+            "id": 19,
+            "debug_name": "test_scarb::Root"
+          }
+        ],
+        "ret_types": [
+          {
+            "id": 19,
+            "debug_name": "test_scarb::Root"
+          }
+        ]
+      },
+      "params": [
+        {
+          "id": {
+            "id": 0,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 19,
+            "debug_name": "test_scarb::Root"
+          }
+        }
+      ],
+      "entry_point": 0
+    },
+    {
+      "id": {
+        "id": 1,
+        "debug_name": "test_scarb::main"
+      },
+      "signature": {
+        "param_types": [],
+        "ret_types": [
+          {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        ]
+      },
+      "params": [],
+      "entry_point": 2
+    },
+    {
+      "id": {
+        "id": 2,
+        "debug_name": "test_scarb::add_type"
+      },
+      "signature": {
+        "param_types": [
+          {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        ],
+        "ret_types": [
+          {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          },
+          {
+            "id": 28,
+            "debug_name": "core::panics::PanicResult::<(core::integer::u32,)>"
+          }
+        ]
+      },
+      "params": [
+        {
+          "id": {
+            "id": 0,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          }
+        },
+        {
+          "id": {
+            "id": 1,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        },
+        {
+          "id": {
+            "id": 2,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        },
+        {
+          "id": {
+            "id": 3,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        }
+      ],
+      "entry_point": 14
+    },
+    {
+      "id": {
+        "id": 3,
+        "debug_name": "test_scarb::add_struct"
+      },
+      "signature": {
+        "param_types": [
+          {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        ],
+        "ret_types": [
+          {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          },
+          {
+            "id": 28,
+            "debug_name": "core::panics::PanicResult::<(core::integer::u32,)>"
+          }
+        ]
+      },
+      "params": [
+        {
+          "id": {
+            "id": 0,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          }
+        },
+        {
+          "id": {
+            "id": 1,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        },
+        {
+          "id": {
+            "id": 2,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        }
+      ],
+      "entry_point": 48
+    },
+    {
+      "id": {
+        "id": 4,
+        "debug_name": "test_scarb::add_enum_variant_list"
+      },
+      "signature": {
+        "param_types": [
+          {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        ],
+        "ret_types": [
+          {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          },
+          {
+            "id": 28,
+            "debug_name": "core::panics::PanicResult::<(core::integer::u32,)>"
+          }
+        ]
+      },
+      "params": [
+        {
+          "id": {
+            "id": 0,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          }
+        },
+        {
+          "id": {
+            "id": 1,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        },
+        {
+          "id": {
+            "id": 2,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        }
+      ],
+      "entry_point": 67
+    },
+    {
+      "id": {
+        "id": 5,
+        "debug_name": "test_scarb::add_enum_variant_obj"
+      },
+      "signature": {
+        "param_types": [
+          {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        ],
+        "ret_types": [
+          {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          },
+          {
+            "id": 28,
+            "debug_name": "core::panics::PanicResult::<(core::integer::u32,)>"
+          }
+        ]
+      },
+      "params": [
+        {
+          "id": {
+            "id": 0,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          }
+        },
+        {
+          "id": {
+            "id": 1,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        },
+        {
+          "id": {
+            "id": 2,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        }
+      ],
+      "entry_point": 86
+    },
+    {
+      "id": {
+        "id": 6,
+        "debug_name": "test_scarb::add_enum"
+      },
+      "signature": {
+        "param_types": [
+          {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          },
+          {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        ],
+        "ret_types": [
+          {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          },
+          {
+            "id": 28,
+            "debug_name": "core::panics::PanicResult::<(core::integer::u32,)>"
+          }
+        ]
+      },
+      "params": [
+        {
+          "id": {
+            "id": 0,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 22,
+            "debug_name": "RangeCheck"
+          }
+        },
+        {
+          "id": {
+            "id": 1,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        },
+        {
+          "id": {
+            "id": 2,
+            "debug_name": null
+          },
+          "ty": {
+            "id": 0,
+            "debug_name": "u32"
+          }
+        }
+      ],
+      "entry_point": 105
+    }
+  ],
+  "debug_info": {
+    "type_names": [],
+    "libfunc_names": [],
+    "user_func_names": []
+  }
+}
